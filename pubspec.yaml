@@ -1,0 +1,46 @@
+name: fhedyapp
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=3.3.2 <4.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  flutter_rating_bar: ^4.0.1
+  outline_gradient_button: ^2.0.1+1
+  smooth_page_indicator: ^1.1.0
+  intl: ^0.18.0
+  image_picker: ^1.1.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Manrope
+      fonts: 
+        - asset: assets/fonts/ManropeMedium.ttf
+          weight: 500
+        - asset: assets/fonts/ManropeSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/ManropeBold.ttf
+          weight: 700
+        - asset: assets/fonts/ManropeExtraBold.ttf
+          weight: 800
+    - family: Actor
+      fonts: 
+        - asset: assets/fonts/ActorRegular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratBold.ttf
+          weight: 700
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
